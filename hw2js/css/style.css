@@ -1,0 +1,33 @@
+.theoretical-tasks {
+    margin: 3% 0;
+    display: grid;
+    grid-template-columns: 0.5fr 2fr 4fr 0.5fr;
+    gap: 20px;
+    justify-items: stretch;
+    align-items: start;
+    text-align: left;
+}
+
+.theoretical-tasks div {
+    align-self: stretch;
+    padding: 14px;
+
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    background: rgba(243, 243, 243, 0.5);
+}
+
+.question {
+    grid-column: 2/3;
+}
+
+div.question {
+    font-weight: 600;
+}
+
+.answer {
+    grid-column: 3/4;
+}
